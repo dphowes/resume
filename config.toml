@@ -13,7 +13,7 @@ preserveTaxonomyNames = true
 [params]
   description = "D. Howes Resume"
   dateFormat = "2006, Jan 2"
-  copyrightOwner = "MunifTanjim"
+  copyrightOwner = "dph"
   copyrightStartYear = "2017"
   favicon = "favicon.ico"
   hideEntryNavigation = false
@@ -42,13 +42,13 @@ preserveTaxonomyNames = true
   name = "Minimo"
 
 [author.social]
-  codepen = "MunifTanjim"
+  codepen = ""
   email = "devinhowes@gmail.com"
   facebook = ""
-  github = "github.com/dphowes"
+  github = "dphowes"
   instagram = ""
   twitter = ""
-  linkedin = "https://www.linkedin.com/in/devin-howes/"
+  linkedin = "devin-howes/"
 
 [permalinks]
   page = "/:slug/"

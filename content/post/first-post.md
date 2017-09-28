@@ -4,7 +4,7 @@ categories:
 tags:
   - hugo
   - small talk
-title: "Welcom to my new website"
+title: "Welcome to my new website"
 date: "2017-09-26T21:46:17-04:00"
 draft: false
 ---
