@@ -11,7 +11,7 @@ Paginate = 5
 preserveTaxonomyNames = true
 
 [params]
-  description = "D. Howes Resume"
+  description = "My slice of the web"
   dateFormat = "2006, Jan 2"
   copyrightOwner = "dph"
   copyrightStartYear = "2017"
@@ -58,6 +58,11 @@ preserveTaxonomyNames = true
   weight = -70
   identifier = "dphowes"
   url = "https://dphowes.github.io"
+
+  name = "Resume"
+  weight = -70
+  identifier = "dphowes"
+  url = "https://dphoews.github.io"
 
 # Language Configuration
 defaultContentLanguage = "en"
