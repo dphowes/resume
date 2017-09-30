@@ -17,8 +17,8 @@ preserveTaxonomyNames = true
   copyrightStartYear = "2017"
   favicon = "favicon.ico"
   hideEntryNavigation = false
-  customCSS = ["css/custom.css"]
-  customJS = ["js/custom.js"]
+  customCSS = ["css/prism.css"]
+  customJS = ["js/prism.js", "js/custom.js"]
   hideSocialMenu = false
   showReadTime = true
 
@@ -39,7 +39,7 @@ preserveTaxonomyNames = true
   facebook = ""
 
 [author]
-  name = "Minimo"
+  name = "dph"
 
 [author.social]
   codepen = ""
@@ -54,7 +54,7 @@ preserveTaxonomyNames = true
   page = "/:slug/"
 
 [[menu.main]]
-  name = "Blog"
+  name = "Home"
   weight = -70
   identifier = "dphowes"
   url = "https://dphowes.github.io"
