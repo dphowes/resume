@@ -59,11 +59,6 @@ preserveTaxonomyNames = true
   identifier = "dphowes"
   url = "https://dphowes.github.io"
 
-  name = "Resume"
-  weight = -70
-  identifier = "dphowes"
-  url = "https://dphoews.github.io"
-
 # Language Configuration
 defaultContentLanguage = "en"
 
