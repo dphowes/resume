@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D. Howes</title>
+    <link>http://dphowes.github.io/</link>
+    <description>Recent content on D. Howes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>2017</copyright>
+    <lastBuildDate>Sat, 30 Sep 2017 16:01:51 -0400</lastBuildDate>
+    
+	<atom:link href="http://dphowes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Under Construction</title>
+      <link>http://dphowes.github.io/post/fourth-post/</link>
+      <pubDate>Sat, 30 Sep 2017 16:01:51 -0400</pubDate>
+      
+      <guid>http://dphowes.github.io/post/fourth-post/</guid>
+      <description>This site is under construction, check back soon for updates!</description>
+    </item>
+    
+    <item>
+      <title>Welcome to my new website</title>
+      <link>http://dphowes.github.io/post/first-post/</link>
+      <pubDate>Tue, 26 Sep 2017 21:46:17 -0400</pubDate>
+      
+      <guid>http://dphowes.github.io/post/first-post/</guid>
+      <description>Welcome I&amp;rsquo;m very happy to introduce my new website!
+It&amp;rsquo;s a static website that I have done in less than 3 hours with this Hugo tutorial</description>
+    </item>
+    
+  </channel>
+</rss>
