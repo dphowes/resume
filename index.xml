@@ -12,30 +12,12 @@
     
     
     <item>
-      <title>Fourth-Post</title>
+      <title>Under Construction</title>
       <link>http://dphowes.github.io/post/fourth-post/</link>
       <pubDate>Sat, 30 Sep 2017 16:01:51 -0400</pubDate>
       
       <guid>http://dphowes.github.io/post/fourth-post/</guid>
       <description>This site is under construction, check back soon for updates!</description>
-    </item>
-    
-    <item>
-      <title>Third-Post</title>
-      <link>http://dphowes.github.io/post/third-post/</link>
-      <pubDate>Sat, 30 Sep 2017 15:56:53 -0400</pubDate>
-      
-      <guid>http://dphowes.github.io/post/third-post/</guid>
-      <description>  from pygments.styles import get_all_styles  styles = list(get_all_styles())  print styles   </description>
-    </item>
-    
-    <item>
-      <title>Second-Post</title>
-      <link>http://dphowes.github.io/post/second-post/</link>
-      <pubDate>Sat, 30 Sep 2017 15:47:29 -0400</pubDate>
-      
-      <guid>http://dphowes.github.io/post/second-post/</guid>
-      <description> body { font-family: &#34;Noto Sans&#34;, sans-serif; }   </description>
     </item>
     
     <item>
