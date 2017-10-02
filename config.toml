@@ -11,13 +11,13 @@ Paginate = 5
 preserveTaxonomyNames = true
 
 [params]
-  description = "My slice of the web"
+  description = ""
   dateFormat = "2006, Jan 2"
   copyrightOwner = "dph"
   copyrightStartYear = "2017"
-  favicon = "favicon.ico"
+  favicon = "favicon.png"
   hideEntryNavigation = false
-  customCSS = ["css/prism.css", "css/skeleton.css"]
+  customCSS = ["css/prism.css"]
   customJS = ["js/prism.js", "js/custom.js"]
   hideSocialMenu = false
   showReadTime = true
