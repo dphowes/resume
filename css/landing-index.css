@@ -9,7 +9,7 @@
 }
 
 .titlebar img {
-  max-height: 150px;
+  height: auto;
   width: 100%;
 }
 
