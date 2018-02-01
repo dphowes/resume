@@ -26,6 +26,15 @@
 */
 
 /* Navigation */
+.titlebar {
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -240,6 +249,10 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
+img {
+  height: 200px;
+  width: 100%;
+}
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
