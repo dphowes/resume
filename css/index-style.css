@@ -51,6 +51,24 @@
   padding: 2rem;
 }
 
+/* Social Connect */
+.connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect ul {
+  padding: 1rem;
+  margin: 0;
+}
+
+.connect img {
+  height: 24px;
+  width: auto;
+}
+
 /* Footer */
 
 .footer {
