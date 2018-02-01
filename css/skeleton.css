@@ -33,6 +33,7 @@
   -ms-align-items: center;
   align-items: center;
   width: 100%;
+  max-width: 960px;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -44,6 +45,9 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
   width: 100%;
   max-width: 960px;
