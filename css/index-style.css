@@ -52,20 +52,16 @@
 }
 
 /* Social Connect */
-.connect {
+.social {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.connect ul {
-  padding: 1rem;
+.social img {
   margin: 0;
-  height: 24px;
-}
-
-.connect img {
+  padding: 1rem;
   height: 24px;
   width: auto;
 }
