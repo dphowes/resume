@@ -64,10 +64,11 @@
   align-items: center;
 }
 
-.social img {
+.social a {
   margin: 0;
   padding: 1rem;
-  height: 15%;
+  height: 48px;
+  width: auto;
 }
 
 /* Footer */
