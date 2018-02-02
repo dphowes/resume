@@ -36,6 +36,26 @@
   padding: 0 2rem;
 }
 
+/* Course List */
+#accordion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.panel-title {
+  font-size: 2.5rem;
+}
+
+h4.panel-title {
+  margin-bottom: 0;
+}
+
+.panel-body {
+  margin-bottom: .5rem;
+  line-height: 1.5rem;
+}
+
 /* Social Connect */
 .social {
   width: 100%;
