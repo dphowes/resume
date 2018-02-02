@@ -1,4 +1,18 @@
-/* Navigation */
+/* Navigation
+.titlebar {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding-bottom: .25rem;
+}
+
+.titlebar .two-thirds.column {
+  max-width: 40%;
+}
+*/
 .navbar img {
   height: auto;
   width: 100%;
