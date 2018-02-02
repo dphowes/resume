@@ -90,6 +90,11 @@ h4.panel-title {
   border-top: 1px solid lightgrey;
 }
 
+.footer p {
+  display: flex;
+  justify-content: center;
+}
+
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
