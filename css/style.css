@@ -59,6 +59,25 @@ h4.panel-title {
   padding: 1rem;
 }
 
+/* Curriculum Grid Dojo */
+.curriculum {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.curriculum h6 {
+  font-weight: bold;
+  color: #1EAEDB;
+  border-bottom: 1px solid lightgrey;
+}
+
+.curriculum-column {
+  width: 30%;
+  text-align: center;
+}
+
 /* Social Connect */
 .social {
   width: 100%;
@@ -121,7 +140,7 @@ h4.panel-title {
 
 /* For devices smaller than 550px */
 @media (max-width: 550px) {}
-  
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
