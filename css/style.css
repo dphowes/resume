@@ -120,12 +120,8 @@ h4.panel-title {
 }
 
 /* For devices smaller than 550px */
-@media (max-width: 550px) {
-  .one-third.column img {
-    display: none;
-  }
-}
-
+@media (max-width: 550px) {}
+  
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
