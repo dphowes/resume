@@ -10,6 +10,10 @@ header {
     font-size: .5rem;
 }
 
+.p-3 {
+    padding: .25rem!important;
+}
+
 .p-5 {
     padding: 1rem!important;
 }
@@ -35,6 +39,7 @@ header {
 
 .affix.navbar {
     background-color: #047afb;
+    height: 2.5rem;
 }
 
 .affix.navbar .nav-item>a,
