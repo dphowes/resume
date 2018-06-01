@@ -18,6 +18,10 @@ header {
     padding: 1rem!important;
 }
 
+.bg-primary {
+    background-color: #4aafdc!important;
+}
+
 .navbar {
     border-radius: 0;
     transition: all 0.3s ease-out;
@@ -38,7 +42,7 @@ header {
 /* fixed to top styles */
 
 .affix.navbar {
-    background-color: #047afb;
+    background-color: #4aafdc;
     height: 2.5rem;
 }
 
@@ -55,4 +59,11 @@ header {
 
 .ed-list p {
     font-size: .85rem;
+}
+
+/* Cards */
+.card {
+    width: 15rem;
+    margin: .5rem;
+    display: inline-flex;
 }
