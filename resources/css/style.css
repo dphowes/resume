@@ -1,0 +1,53 @@
+header {
+    height: 100px;
+}
+
+#main {
+    padding-top: 70px;
+}
+
+.footer {
+    font-size: .5rem;
+}
+
+.p-5 {
+    padding: 1rem!important;
+}
+
+.navbar {
+    border-radius: 0;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-brand {
+    visibility: hidden;
+}
+
+.affix {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/* fixed to top styles */
+
+.affix.navbar {
+    background-color: #047afb;
+}
+
+.affix.navbar .nav-item>a,
+.affix.navbar .navbar-brand {
+    color: #fff;
+    visibility: visible;
+}
+
+/* Education list */
+.ed-list {
+    list-style: none;
+}
+
+.ed-list p {
+    font-size: .85rem;
+}

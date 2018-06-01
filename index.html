@@ -1,79 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>dphowes.org</title>
-  <meta name="description" content="The personal site for D. Howes">
-  <meta name="author" content="dphowes">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dphowes.org | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./resources/images/favicon.png">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/style.css">
 
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="./resources/scripts/script.js"></script>
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"><img src="dphowes.github.io/images/titlebar-small.png" alt="dphowes.org"></a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="./index.html">Home</a></li>
-        <li><a href="./resume.html" target="_blank">Resume</a></li>
-        <li><a href="./courses.html">Technical Education</a></li>
-      </ul>
+    <header class="text-center p-5">
+        <img src="./resources/images/titlebar-small.png" alt="dphowes.org">
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-light" data-toggle="affix">
+        <a class="navbar-brand" href="#">dphowes.org</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            ☰
+        </button>
+        <div class="collapse navbar-collapse" id="collapsingNavbar">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#main">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./resume.html" target="_blank">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="main">
+        <h2>Devin Howes</h2>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-9">
+                <p>
+                    <b>Some things about me:</b>
+                </p>
+                <ol id="index-list">
+                    <li>Creativity quenches my thirst.</li>
+                    <li>I thrive on tangible output.</li>
+                    <li>Corvettes are a labor of love, one that I embrace fully.</li>
+                    <li>Flying airplanes is freedom in physical form.</li>
+                    <li>Proud
+                        <a href="https://www.16personalities.com/istj-personality" target="_blank">Logistician</a>.</li>
+                </ol>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <img src="./resources/images/dph.jpg" alt="dphowes">
+                <br>
+                <a href="mailto:devinhowes@gmail.com?Subject=Let's%20Connect" target="_top">
+                    <img src="./resources/images/gmail.png" alt="email" height="36">
+                </a>
+                <a href="https://github.com/dphowes" target="_blank">
+                    <img src="./resources/images/github.png" alt="github" height="36">
+                </a>
+                <a href="https://linkedin.com/in/devin-howes/" target="_blank">
+                    <img src="./resources/images/linkedin.png" alt="linkedin" height="36">
+                </a>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <h3 id="education" class="p-3 mb-2 bg-primary text-white">Formal Education</h3>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <ul class="ed-list">
+                    <li>
+                    <h5 class="p-3 mb-2 bg-secondary text-white">Technical Training</h5>
+                    </li>
+                        <ul class="ed-list">
+                            <li>
+                                <h6>Coding Dojo Web Development Bootcamp</h6>
+                            </li>
+                        </ul>
+                    <li>
+                    <h5 class="p-3 mb-2 bg-secondary text-white">Academic Degrees</h5>
+                    </li>
+                        <ul class="ed-list">
+                            <li>
+                                <h6>Master of Business Administration Management</h6>
+                                <p><i>Embry-Riddle Aeronautical University</i></p>
+                            </li>
+                            <li>
+                                <h6>Bachelor of Science in Business Administration</h6>
+                                <p><i>Slippery Rock University of Pennsylvania</i></p>
+                            </li>
+                            <li>
+                                <h6>Minor in Information Systems Technology</h6>
+                                <p><i>Slippery Rock University of Pennsylvania</i></p>
+                            </li>
+                        </ul>
+                    <li>
+                    <h5 class="p-3 mb-2 bg-secondary text-white">Academic Certificates</h5>
+                    </li>
+                        <ul class="ed-list">
+                            <li>
+                                <h6>Aviation Safety Management Systems</h6>
+                                <p><i>University of Southern California</i></p>
+                            </li>
+                            <li>
+                                <h6>Remote Pilot Safety Management</h6>
+                                <p><i>University of Southern California</i></p>
+                            </li>
+                            <li>
+                                <h6>The Human Factor in Aviation</h6>
+                                <p><i>Embry-Riddle Aeronautical University</i></p>
+                            </li>
+                        </ul>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="techskills" class="p-3 mb-2 bg-primary text-white">Technical Skills</h3>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h5>Front End</h5>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS3 / Flexbox</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>AJAX</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h5>Python</h5>
+                <ul>
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>Django</li>
+                    <li>MySQL</li>
+                    <li>SQLite</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h5>MEAN</h5>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>Express</li>
+                    <li>AngluarJS</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h5>Other</h5>
+                <ul>
+                    <li>Socket.io</li>
+                    <li>SQL</li>
+                    <li>Git</li>
+                    <li>PivotalTracker</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 id="aviation" class="p-3 mb-2 bg-primary text-white">Aviation Experience</h3>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <ul class="ed-list">
+                    <li>
+                        <h5 class="p-3 mb-2 bg-secondary text-white">Ratings</h5>
+                    </li>
+                    <ul class="ed-list">
+                        <li>
+                            <h6>Commercial Pilot SEL</h6>
+                        </li>
+                        <li>
+                            <h6>Instrument Airplane</h6>
+                        </li>
+                        <li>
+                            <h6>Remote Pilot</h6>
+                        </li>
+                    </ul>
+                    <li>
+                        <h5 class="p-3 mb-2 bg-secondary text-white"> Committee Work</h5>
+                    </li>
+                    <ul class="ed-list">
+                        <li>
+                            <h6>NBAA Domestic Opeations Committee</h6>
+                            <p>
+                                <i>2016-Present</i>
+                            </p>
+                        </li>
+                        <li>
+                            <h6>USHST Safety Management Working Group</h6>
+                            <p>
+                                <i>2016-2017</i>
+                            </p>
+                        </li>
+                    </ul>
+                    <li>
+                        <h5 class="p-3 mb-2 bg-secondary text-white">Additional Certifications</h5>
+                    </li>
+                    <ul class="ed-list">
+                        <li>
+                            <h6>Certified FBO Safety Manager</h6>
+                            <p>
+                                <i>National Air Transport Association</i>
+                            </p>
+                        </li>
+                        <li>
+                            <h6>IS-BAO Auditing / Fundamentals</h6>
+                            <p>
+                                <i>International Business Aviation Council</i>
+                            </p>
+                        </li>
+                        <li>
+                            <h6>IS-BAH Auditing / Fundamentals</h6>
+                            <p>
+                                <i>International Business Aviation Council</i>
+                            </p>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+        <div class="footer">
+            <p>&copy 2018, dphowes.org</p>
+        </div>
     </div>
-  </nav>
-
-  <div class="container">
-    <div class="row" id="index-row">
-      <div class="two-thirds column">
-        <p><b>Six things about me:</b></p>
-        <ol id="index-list">
-          <li>Creativity quenches my thirst.</li>
-          <li>I thrive on tangible output.</li>
-          <li>Standard transmission or bust.</li>
-          <li>Flying airplanes is freedom in physical form.</li>
-          <li>Always know the location of my <a href="https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Knowing_where_one's_towel_is" target="_blank">towel</a>.</li>
-          <li>Proud <a href="https://www.16personalities.com/istj-personality" target="_blank">Logistician</a>.</li>
-        </ol>
-      </div>
-      <div class="one-third column" id="index-one-third">
-        <img src="dphowes.github.io/images/dph.jpg" alt="dphowes face">
-      </div>
-    </div>
-  </div>
-
-  <div class="social">
-    <a href="mailto:devinhowes@gmail.com?Subject=Hello%20again" target="_top">
-      <img src="dphowes.github.io/images/gmail.png" alt="email" height="36">
-    </a>
-    <a href="https://github.com/dphowes" target="_blank">
-      <img src="dphowes.github.io/images/github.png" alt="github" height="36">
-    </a>
-    <a href="https://linkedin.com/in/devin-howes/" target="_blank">
-      <img src="dphowes.github.io/images/linkedin.png" alt="linkedin" height="36">
-    </a>
-    <a href="https://www.instagram.com/dph711/" target="_blank">
-      <img src="dphowes.github.io/images/instagram.png" alt="instagram" height="36">
-    </a>
-  </div>
-
-  <div class="footer">
-    <p>&copy 2018, dphowes.org</p>
-  </div>
-
-  <!-- Bootstrap JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
