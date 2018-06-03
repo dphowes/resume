@@ -79,3 +79,8 @@ header {
 .no-pad {
     padding: 0px;
 }
+
+.img-fluid {
+    max-width: 50%;
+    margin: 0 auto;
+}
