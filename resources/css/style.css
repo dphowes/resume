@@ -2,6 +2,10 @@ header {
     height: 100px;
 }
 
+li {
+    font-size: .85rem;
+}
+
 #main {
     padding-top: 70px;
 }
@@ -56,15 +60,6 @@ header {
     visibility: visible;
 }
 
-/* Education list */
-.ed-list {
-    list-style: none;
-}
-
-.ed-list p {
-    font-size: .85rem;
-}
-
 /* Cards */
 .card {
     padding: 5px;
@@ -80,11 +75,7 @@ header {
     font-weight: bold;
 }
 
-.no-pad {
-    padding: 0px;
-}
-
 .img-fluid {
-    max-width: 85%;
+    max-width: 200px;
     margin: 0 auto;
 }
