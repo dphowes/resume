@@ -19,7 +19,7 @@ header {
 }
 
 .bg-primary {
-    background-color: #4aafdc!important;
+    background-color: #45abe4!important;
 }
 
 .navbar {
@@ -63,7 +63,19 @@ header {
 
 /* Cards */
 .card {
-    width: 15rem;
-    margin: .5rem;
-    display: inline-flex;
+    padding: 5px;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.card-text {
+    font-size: .85rem;
+    font-weight: bold;
+}
+
+.no-pad {
+    padding: 0px;
 }

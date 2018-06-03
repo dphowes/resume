@@ -13,9 +13,7 @@ $(document).ready(function() {
         affixElement.removeClass("affix");
         wrapper.height('auto');
     }
-      
-  };
-  
+};
 
   $('[data-toggle="affix"]').each(function() {
     var ele = $(this),
