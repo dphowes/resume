@@ -22,6 +22,10 @@ header {
     background-color: #45abe4!important;
 }
 
+.bg-danger {
+    background-color: #990000!important;
+}
+
 .navbar {
     border-radius: 0;
     transition: all 0.3s ease-out;
