@@ -7,10 +7,10 @@ $(document).ready(function() {
     
     if (scrollElement.scrollTop() >= top){
         wrapper.height(height);
-        affixElement.addClass("affix");
+        affixElement.addClass("affix container");
     }
     else {
-        affixElement.removeClass("affix");
+        affixElement.removeClass("affix container");
         wrapper.height('auto');
     }
 };
